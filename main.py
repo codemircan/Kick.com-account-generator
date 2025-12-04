@@ -32,9 +32,10 @@ def main(amount, threads):
     print(f"\nTotal Generated: {success} | Failed: {fail} | Time: {time.time() - start_time:.2f}s")
 
 
-amount = int(input("How many accounts? "))
-threads = int(input("How many threads? "))
-threads = min(threads, amount)
+if __name__ == "__main__":
+    amount = int(input("How many accounts? "))
+    threads = int(input("How many threads? "))
+    threads = min(threads, amount)
 
-main(amount, threads)
-console.success("Finished")
+    main(amount, threads)
+    console.success("Finished")

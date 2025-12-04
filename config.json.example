@@ -3,23 +3,6 @@
         "xqc"
     ],
     "password": null,
-    "mailType": "kopeechka|imap|custom",
-    "gmail": {
-        "email": "",
-        "password": ""
-    },
-    "salamoonder_apiKey": "",
-    "kopeechka": {
-        "key": "",
-        "domains": [
-            "hotmail.com",
-            "outlook.com"
-        ]
-    },
-    "domain": "",
-    "imap": {
-        "apiUrl": "http://mail.example.com",
-        "imap": "mail.example.com",
-        "domain": "example.com"
-    }
+    "mailType": "local",
+    "salamoonder_apiKey": ""
 }
