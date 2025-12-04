@@ -1,9 +1,14 @@
 colorama
 requests
+ fix/remove-legacy-code-and-syntax-error
+tls_client
+websocket-client
+=======
 fix/syntax-error-and-restore-logic
 tls_client
 websocket-client
 =======
 tls_clientwebsocket-client
+ main
  main
 beautifulsoup4
