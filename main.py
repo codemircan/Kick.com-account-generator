@@ -31,11 +31,18 @@ def main(amount, threads):
 
     print(f"\nTotal Generated: {success} | Failed: {fail} | Time: {time.time() - start_time:.2f}s")
 
-
 if __name__ == "__main__":
     amount = int(input("How many accounts? "))
     threads = int(input("How many threads? "))
     threads = min(threads, amount)
 
+ fix/syntax-error-and-restore-logic
+=======
+if __name__ == "__main__":
+    amount = int(input("How many accounts? "))
+    threads = int(input("How many threads? "))
+    threads = min(threads, amount)
+
+ main
     main(amount, threads)
     console.success("Finished")

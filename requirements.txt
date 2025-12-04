@@ -1,4 +1,9 @@
 colorama
 requests
+fix/syntax-error-and-restore-logic
+tls_client
+websocket-client
+=======
 tls_clientwebsocket-client
+ main
 beautifulsoup4
