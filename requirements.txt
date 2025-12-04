@@ -1,3 +1,5 @@
 colorama
 requests
 tls_client
+websocket-client
+beautifulsoup4
