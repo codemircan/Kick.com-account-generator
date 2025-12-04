@@ -36,5 +36,19 @@ if __name__ == "__main__":
     threads = int(input("How many threads? "))
     threads = min(threads, amount)
 
+ feature/use-email-txt
+=======
+ fix/remove-legacy-code-and-syntax-error
+=======
+ fix/syntax-error-and-restore-logic
+=======
+if __name__ == "__main__":
+    amount = int(input("How many accounts? "))
+    threads = int(input("How many threads? "))
+    threads = min(threads, amount)
+
+ main
+ main
+ main
     main(amount, threads)
     console.success("Finished")
